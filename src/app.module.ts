@@ -14,8 +14,6 @@ import { ProfileEntity } from './profiles/profiles.entity'
 import { BlogEntity } from './blogs/blogs.entity'
 import { VisitorEntity } from './visitors/visitors.entity'
 import { TagEntity } from './tags/tags.entity'
-// import { VisitorsModule } from './visitors/visitors.module';
-// import { VisitorsModule } from './visitors/visitors.module';
 
 const typeOrmModuleOptions = {
   useFactory: async (
